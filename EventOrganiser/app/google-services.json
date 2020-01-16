@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "544458468425",
+    "firebase_url": "https://eventorganiser-436b6.firebaseio.com",
+    "project_id": "eventorganiser-436b6",
+    "storage_bucket": "eventorganiser-436b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544458468425:android:8e1859a9e46f00d4dbe398",
+        "android_client_info": {
+          "package_name": "com.example.eventorganiser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544458468425-383j4uusd3q38hp1qjk6q9ch2f15b43p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eventorganiser",
+            "certificate_hash": "b069c37ef0c8a60267aa98ab39c87c1bc432ad06"
+          }
+        },
+        {
+          "client_id": "544458468425-97reohm55k3t9207kvf7cdac8unij3la.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8yuD-dqq3yw8tRapkcqoPUqVjQAUXnR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544458468425-97reohm55k3t9207kvf7cdac8unij3la.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

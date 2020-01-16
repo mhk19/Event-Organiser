@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">EventOrganiser</string>
+    <string name="home">Home</string>
+    <string name="account_details">Account Details</string>
+    <string name="past_events">Past Events</string>
+    <string name="my_events">My Events</string>
+    <string name="logout">Logout</string>
+
+    <string name="title_activity_comments">Comments</string>
+    <string name="action_comment">Comment</string>
+    <string name="action_refresh">Reload</string>
+
+</resources>
