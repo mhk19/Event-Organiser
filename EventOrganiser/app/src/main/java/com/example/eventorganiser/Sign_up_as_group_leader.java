@@ -20,7 +20,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class Sign_up_as_group_leader extends AppCompatActivity {
 
-    TextView GroupName,Email,Password,CPassword,Username;
+    TextView GroupName,Email,Password,CPassword,Username,GroupCode;
     Button SignUp;
     FirebaseAuth fAuth;
     private ProgressBar progressBar;
@@ -37,6 +37,7 @@ public class Sign_up_as_group_leader extends AppCompatActivity {
         SignUp = findViewById(R.id.Signup2);
         Username = findViewById(R.id.Username2);
         progressBar = findViewById(R.id.progressBar_signup_as_gl);
+        GroupCode = findViewById(R.id.groupCode);
 
         fAuth = FirebaseAuth.getInstance();
 
@@ -48,6 +49,7 @@ public class Sign_up_as_group_leader extends AppCompatActivity {
                 final String groupname = GroupName.getText().toString().trim();
                 String cpassword = CPassword.getText().toString().trim();
                 final String username = Username.getText().toString().trim();
+                String groupCode = GroupCode.getText().toString().trim();
 
                 if(TextUtils.isEmpty(username)){
                     Username.setError("Username is Required");
@@ -57,6 +59,10 @@ public class Sign_up_as_group_leader extends AppCompatActivity {
                     GroupName.setError("Group Name is required");
                 }
 
+                else if(!groupCode.equals("IITR_Groups")){
+                   GroupCode.setError("Incorrect Group Code");
+                }
+                
                 else if(TextUtils.isEmpty(email)){
                     Email.setError("Email is Required");
                 }
